@@ -1,12 +1,11 @@
 # BussinessRulesChecker
-BussinessRulesChecker
 
-Program for compatibility checking bussiness rules against domain specification.
+Program for compatibility checking of bussiness rules against domain specification.
 Its executable version is available under the link:
 https://drive.google.com/drive/folders/12knuK1992WzsL9HHqPkFqNOcZiH6lwnN?usp=sharing
 
 Business rules are defined in English followed by a list of propositions. There is an empty line between the rules.
-Example of business rules are given in config folder (e.g. bank_rules.txt)
+Examplary business rules are given in config folder (e.g. bank_rules.txt)
 
 Domain specification is defined in plant UML format (files with puml extension) with some simplifications:
 - classes can have attributes only
