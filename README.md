@@ -21,6 +21,7 @@ The config folder contains some configuration files influencing the tool behavio
 - synonyms - synonyms for classes/roles
 
 Execution environment: Java 8
-Dependencies (defined in pom.xml): 
+
+Other dependencies (defined in pom.xml): 
 - antl4
 - standford tagger
