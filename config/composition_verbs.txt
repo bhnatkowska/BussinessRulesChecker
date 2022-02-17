@@ -1,0 +1,3 @@
+contain#is_contained
+enclose#is_enclosed
+compose#is_composed

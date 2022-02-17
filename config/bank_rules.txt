@@ -1,0 +1,126 @@
+The cost of withdrawal transaction must be zero if the withdrawal transaction was made for an account that was opened by a business customer.
+"The cost of withdrawal transaction", "must be", "zero if the withdrawal transaction was made for an account"
+"The cost of withdrawal transaction", "must be", "zero"
+"the withdrawal transaction", "was made", "for an account"
+"an account", "is opened", "by a business customer"
+
+The cost of withdrawal transaction must be zero if the withdrawal transaction was made for an account for which the owner is a business customer.
+"The cost of withdrawal transaction", "must be", "zero if the withdrawal transaction was made for an account"
+"The cost of withdrawal transaction", "must be", "zero"
+"the withdrawal transaction", "was made", "for an account"
+"the owner", "is", "a business customer for an account"
+"the owner", "is", "a business customer"
+
+The cost of transfer transaction must be zero if the source is the same as the target.
+"The cost of transfer transaction", "must be", "zero if the source is the same as the target"
+"The cost of transfer transaction", "must be", "zero"
+"the source", "is", "the same as the target"
+"the source", "is", "the same"
+
+The cost of transfer transaction must be zero if the source and target accounts are the same.
+"The cost of transfer transaction", "must be", "zero if the source and target accounts are the same"
+"The cost of transfer transaction", "must be", "zero"
+"the source and target accounts", "are", "the same"
+
+The machine of each withdrawal transaction must be managed by the bank to which the source of transaction is contained in.
+"The machine of each withdrawal transaction", "must be managed", "by the bank"
+"the source of transaction", "is contained", "in to the bank"
+"the source of transaction", "is contained", "to the bank"
+
+It is necessary that a balance of Personal Account be negative if the address of the bank that serves the account is localized in US
+"It", "is", "necessary that a balance of Personal Account be negative if the address of the bank is localized in US"
+"a balance of Personal Account", "be", "negative if the address of the bank is localized in US"
+"the bank", "serves", "the account"
+"the address of the bank", "is", "localized in US"
+"the address of the bank", "is", "localized"
+
+Each ATM’s location must be close to the bank’s location the ATM is managed by.
+"Each ATM", "has", "location"
+"Each ATM 's location", "must be", "close to the bank 's location"
+"Each ATM 's location", "must be", "close"
+"the bank", "has", "location"
+"the ATM", "is managed", "by the bank 's location"
+
+Client must open at most one account.
+"Client", "must open", "at most one account"
+
+Each bank must compose at least one account.
+"Each bank", "must compose", "at least one account"
+
+It is possible, that a buyer opens at most one account.
+"It", "is", "possible that a buyer opens at most one account"
+"a buyer", "opens", "at most one account"
+
+An account must be composed in at most one bank.
+"An account", "must be composed", "in at most one bank"
+
+Location of an Atm must be different than the address of a bank.
+"Location of an Atm", "must be", "different than the address of a bank"
+"Location of an Atm", "must be", "different"
+
+Location of an Atm must be different than the bank’s address.
+"Location of an Atm", "must be", "different than the bank 's address"
+"Location of an Atm", "must be", "different"
+"the bank", "has", "address"
+
+Each customer’s number must be unique.
+"Each customer", "has", "number"
+"Each customer 's number", "must be", "unique"
+
+Each personal account must be opened by at most one client.
+"Each personal account", "must be opened", "by at most one client"
+
+A business customer must open at least one personal account.
+"A business customer", "must open", "at least one personal account"
+
+A buyer must open at most one account.
+"A buyer", "must open", "at most one account"
+
+Personal account must be opened by one business customer.
+"Personal account", "must be opened", "by one business customer"
+
+A personal account must be opened by one business customer.
+"A personal account", "must be opened", "by one business customer"
+
+An atm must be managed by at most one bank.
+"An atm", "must be managed", "by at most one bank"
+
+A bank must manage at least one atm.
+"A bank", "must manage", "at least one atm"
+
+An account must be enclosed in at most one bank.
+"An account", "must be enclosed", "in at most one bank"
+
+Each person must open one bank account.
+"Each person", "must open", "one bank account"
+
+First name of customer must be different from customer family name.
+"First name of customer", "must be", "different from customer family name"
+"First name of customer", "must be", "different"
+
+Customer must open at most one customer account.
+"Customer", "must open", "at most one customer account"
+
+It is necessary that each account belongs to one client.
+"It", "is", "necessary that each account belongs to one client"
+"each account", "belongs", "to one client"
+
+Cutomer must open at least one account.
+"Cutomer", "must open", "at least one account"
+
+Account must be given by exactly one owner.
+"Account", "must be given", "by exactly one owner"
+
+It is necessary that each account is opened by exactly two guests.
+"It", "is", "necessary that each account is opened by exactly two guests"
+"each account", "is opened", "by exactly two guests"
+
+Each bank’s first name must be unique.
+"Each bank", "has", "first name"
+"Each bank 's first name", "must be", "unique"
+
+Bank aggregates many parts.
+"Bank", "aggregates", "many parts"
+
+Bank contains many ATM.
+"Bank", "contains", "many ATM"

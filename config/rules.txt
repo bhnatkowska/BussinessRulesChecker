@@ -1,0 +1,3 @@
+Each branch's name must be unieque.
+"branch", "has", "name"
+"branch 's name", "must be", "unique"

@@ -1,0 +1,46 @@
+@startuml
+class Customer
+{
+first_name : String
+last_name : String
+number : Integer
+}
+class Account
+{
+number : Integer
+balance : Real
+}
+class Bank
+{
+address : String
+code : String
+}
+class ATM
+{
+location : String
+}
+
+class Transaction
+{
+cost : Real
+amount : Real
+}
+
+class Withdrawal_Transaction {}
+class Transfer_Transaction {}
+class BusinessCustomer{}
+class PersonalAccount{}
+
+Customer <|-- BusinessCustomer
+Account <|-- PersonalAccount
+Transaction <|--  Withdrawal_Transaction
+Transaction <|-- Transfer_Transaction
+
+
+Withdrawal_Transaction "*" -- "0..1 machine" ATM : made_in
+Customer "owner 1" -- "*" Account : opens#is_opened_by
+Bank "1" *-- "*" Account
+Bank "1" -- "*" ATM : manages#is_managed_by
+Transfer_Transaction "1" -- "1 target" Account
+Transaction "*" -- "1 source" Account : is_made_for#has
+@enduml

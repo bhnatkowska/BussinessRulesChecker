@@ -1,0 +1,91 @@
+@startuml
+class Country {}
+class EU_Rent_Site {}
+class Rental_Organization_Unit {}
+class Local_Area {}
+class Branch
+{
+name : String
+car_storage_capacity : Real
+hours_operation : String
+}
+class Car_Movement
+{
+movement_id : Integer
+being_in_area : Boolean
+being_international : Boolean
+being_round_trip : Boolean
+}
+class Rental_Car
+{
+fuel_level : Integer
+}
+class Car_Transfer
+{
+transfer_date_time : String
+transfer_drop_off_date_time : String
+transfer_pick_up_date_time : String
+}
+class Rental
+{
+actual_start_date_time : String
+end_date_time : String
+actual_pick_up_date_time : String
+actual_return_date_time : String
+current_contact_details : String
+scheduled_pick_up_date_time : String
+scheduled_return_date_time : String
+is_open : Boolean
+}
+class Car_Group
+{
+passenger_capacity : Integer
+}
+class Period
+{
+actual_end_date_time : String
+start_date_time : String
+end_date_time : String
+scheduled_start_date_time : String
+}
+class Dirver_Licence {}
+class Driver
+{
+is_qualified : Boolean
+is_barred : Boolean
+}
+class International_Dirver_Rental {}
+class International_Inward_Rental {}
+class One_Way_Car_Movement {}
+
+Car_Movement <|-- One_Way_Car_Movement
+Rental <|-- International_Dirver_Rental
+Rental <|-- International_Inward_Rental
+Rental_Organization_Unit <|-- Local_Area
+Rental_Organization_Unit <|-- Branch
+
+Rental_Organization_Unit "*" -- "1" EU_Rent_Site : is_based_for
+Country "1" -- "*" EU_Rent_Site : includes#is_included
+Branch "*" -- "1 operating_country" Country : has
+Local_Area "*" -- "1" Branch : is_included_in#includes
+Car_Movement "*"-- "1 sending_branch" Branch : has
+Car_Movement "*" -- "1 receiving_branch" Branch : has
+Car_Movement "*" -- "1" Car_Group : specifies#is_specified
+Rental_Car "*" -- "1 country_of_registration" Country : has
+Rental_Car "*" -- "1" Car_Movement : is_assigned_to
+Rental_Car "*" -- "1" Local_Area : is_owned_by
+Rental_Car "rented_car 1" -- "1" Rental : is_assigned_to
+Car_Transfer "0..1" -- "0..1 transfered_car" Rental_Car
+Car_Transfer "0..1" -- "0..1" Car_Movement : includes#is_included
+Car_Transfer "*" -- "1 transfer_pick_up_branch" Branch : has
+Car_Transfer "*" -- "1 transfer_drop_off_branch" Branch : has
+Rental "*" -- "1 pick_up_branch" Branch : has
+Rental "*" -- "1 return_branch" Branch : has
+Rental "0..1" -- "0..1" Car_Movement : includes#is_included
+Rental "*" -- "0..1 requested_car_group" Car_Group : has
+Rental "*" -- "1 rental_period" Period : includes#is_included
+Rental "*" -- "1 renter" Driver : has
+Driver "1"-- "0..1 valid_driver_license" Dirver_Licence : has
+Car_Transfer "*" -- "0..1 fixed_period" Period : is_included_in
+Period "*" -- "*" Period : overlaps
+@enduml

@@ -1,0 +1,151 @@
+At the actual start date time of each rental it is obligatory that the fuel level of the rented car of the rental is full.
+"it", "is", "obligatory that the fuel level of the rented car of the rental is full at the actual start date time of each rental"
+"it", "is", "obligatory that the fuel level of the rented car of the rental is full"
+"the fuel level of the rented car of the rental", "is", "full"
+
+A rental has a scheduled pick up date time if and only if the scheduled pick up date time is the scheduled start date time of the rental period that is included in the rental.
+"A rental", "has", "a scheduled pick up date time if and only if the scheduled pick up date time is the scheduled start date time of the rental period that is included in the rental"
+"A rental", "has", "a scheduled pick up date time"
+"the scheduled pick up date time", "is", "the scheduled start date time of the rental period"
+"the scheduled pick up date time", "is", "the scheduled start date time"
+"that", "is included", "in the rental only"
+"that", "is included", "in the rental if the scheduled pick up date time is the scheduled start date time of the rental period"
+"that", "is included", "in the rental"
+
+A rental has an actual pick up date time if and only if the actual pick up date time is the start date time of the rental period that is included in the rental.
+"A rental", "has", "an actual pick up date time if and only"
+"A rental", "has", "an actual pick up date time if the actual pick up date time is the start date time of the rental period"
+"A rental", "has", "an actual pick up date  time"
+"the actual pick up date time", "is", "the start date time of the rental period"
+"the actual pick up date time", "is", "the start date time"
+"the rental period", "is included", "in the rental"
+
+The transferred car of a car transfer is the rental car that is assigned to the one way car movement that is included in the car transfer.
+"The transferred car of a car transfer", "is", "the rental car"
+"the rental car", "is assigned", "to the one way car movement"
+"the one way car movement", "is included", "in the car transfer"
+
+A car transfer has a transfer drop off branch if and only if the transfer drop off branch is the receiving branch of the one way car movement that is included in the car transfer.
+"A car transfer", "has", "a transfer drop off branch if and only"
+"A car transfer", "has", "a transfer drop off branch if the transfer drop off branch is the receiving branch of the one way car movement"
+"A car transfer", "has", "a transfer drop off branch"
+"the transfer drop off branch", "is", "the receiving branch of the one way car movement"
+"the transfer drop off branch", "is", "the receiving branch"
+"the one way car movement", "is included", "in the car transfer"
+
+A car transfer has a transfer drop off date time if and only if the transfer drop off date time is the actual end date time of the fixed period that is included in the car transfer.
+"A car transfer", "has", "a transfer drop off date time if and only"
+"A car transfer", "has", "a transfer drop off date time if the transfer drop off date time is the actual end date time of the fixed period"
+"A car transfer", "has", "a transfer drop off date time"
+"the transfer drop off date time", "is", "the actual end date time of the fixed period"
+"the transfer drop off date time", "is", "the actual end date time"
+"the fixed period", "is included", "in the car transfer"
+
+A rental has an actual return date time if and only if the actual return date time is the end date time of the rental period that is included in the rental.
+"A rental", "has", "an actual return date time if and only"
+"A rental", "has", "an actual return date time if the actual return date time is the end date time of the rental period"
+"A rental", "has", "an actual return date time"
+"the actual return date time", "is", "the end date time of the rental period"
+"the actual return date time", "is", "the end date time"
+"the rental period", "is included", "in the rental"
+
+A rental has a pick up branch if and only if the pick up branch is the sending branch of the car movement that is included in the rental.
+"A rental", "has", "a pick up branch if and only"
+"A rental", "has", "a pick up branch if the pick up branch is the sending branch of the car movement"
+"A rental", "has", "a pick up branch"
+"the pick up branch", "is", "the sending branch of the car movement"
+"the pick up branch", "is", "the sending branch"
+"if the sending branch of the car movement", "is included", "in the rental"
+
+A rental has a requested car group if and only if the requested car group is the car group that is specified in the car movement that is included in the rental.
+"A rental", "has", "a requested car group if and only"
+"A rental", "has", "a requested car group if the requested car group is the car group"
+"A rental", "has", "a requested car group"
+"the requested car group", "is", "the car group"
+"if the car group", "is specified", "in the car movement"
+"the car movement", "is included", "in the rental"
+
+A rental has a return branch if and only if the return branch is the receiving branch of the car movement that is included in the rental
+"A rental", "has", "a return branch if and only"
+"A rental", "has", "a return branch if the return branch is the receiving branch of the car movement"
+"A rental", "has", "a return branch"
+"the return branch", "is", "the receiving branch of the car movement"
+"the return branch", "is", "the receiving branch"
+"if the receiving branch of the car movement", "is included", "in the rental"
+
+A rental has a scheduled return date time if and only if the scheduled return date time is the scheduled end date time of the rental period that is included in the rental.
+"A rental", "has", "a scheduled return date time if and only if the scheduled return date time is the scheduled end date time of the rental period that is included in the rental"
+"A rental", "has", "a scheduled return date time"
+"the scheduled return date time", "is", "the scheduled end date time of the rental period"
+"the scheduled return date time", "is", "the scheduled end date time"
+"that", "is included", "in the rental only"
+"that", "is included", "in the rental if the scheduled return date time is the scheduled end date time of the rental period"
+"that", "is included", "in the rental"
+
+A rented car is assigned to a rental if and only if the rented car is the rental car that is assigned to the car movement that is included in the rental.
+"A rented car", "is assigned", "to a rental if and only if the rented car is the rental car that is included in the rental"
+"A rented car", "is assigned", "to a rental"
+"the rented car", "is", "the rental car"
+"if the rental car", "is assigned", "to the car movement"
+"that", "is included", "in the rental only"
+"that", "is included", "in the rental if the rented car is the rental car"
+"that", "is included", "in the rental"
+
+If the country of the pick up branch of a rental is not the country of registration of the rented car of the rental then it is obligatory that the country of the return branch of the rental is the country of registration of the rented car.
+"the country of the pick up branch of a rental", "is not", "the country of registration of the rented car of the rental then"
+"the country of the pick up branch of a rental", "is not", "the country"
+"it", "is", "obligatory that the country of the return branch of the rental is the country of registration of the rented car the rental then"
+"the country of the return branch of the rental", "is", "the country of registration of the rented car"
+"the country of the return branch of the rental", "is", "the country"
+
+It is necessary that if a rental is open and the rental is not an international inward rental then the rented car of the rental is owned by the local area of the pick up branch of the rental.
+"It", "is", "necessary that if a rental is open and the rental is not an international inward rental then the rented car of the rental is owned by the local area of the pick up branch of the rental"
+"a rental", "is", "open"
+"the rental", "is not", "an international inward rental the rented car of the rental"
+"if a rental is open and the rental is not an international inward rental then the rented car of the rental", "is owned", "by the local area of the pick up branch of the rental"
+
+At the transfer drop off date time of a car transfer it is obligatory that the transferred car of the car transfer is owned by the local area that includes the transfer drop off branch of the car transfer.
+"it", "is", "obligatory that the transferred car of the car transfer is owned by the local area At the transfer drop off date time of a car transfer"
+"it", "is", "obligatory that the transferred car of the car transfer is owned by the local area"
+"the transferred car of the car transfer", "is owned", "by the local area"
+"the local area", "includes", "the transfer drop off branch of the car transfer"
+
+It is permitted that a rental is open only if each driver of the rental is not a barred driver.
+"It", "is permitted", "that a rental is open only if each driver of the rental is not a barred driver"
+"a rental", "is", "open only if each driver of the rental is not a barred driver"
+"each driver of the rental", "is not", "if a barred driver only"
+"each driver of the rental", "is not", "if a barred driver"
+
+A rented car is assigned to a rental if and only if the rented car is the rental car that is assigned to the car movement that is included in the rental.
+"A rented car", "is assigned", "to a rental if and only if the rented car is the rental car that is included in the rental"
+"A rented car", "is assigned", "to a rental"
+"the rented car", "is", "the rental car"
+"if the rental car", "is assigned", "to the car movement"
+"that", "is included", "in the rental only"
+"that", "is included", "in the rental if the rented car is the rental car"
+"that", "is included", "in the rental"
+
+If rental1 is not rental2 and the renter of rental1 is the renter of rental2 then it is obligatory that the rental period of rental1 does not overlap the rental period of rental2.
+"rental1", "is not", "rental2"
+"the renter of rental1", "is", "the renter of rental2"
+"the renter of rental1", "is", "the renter"
+"it", "is", "obligatory that the rental period of rental1 does not overlap the rental period of rental2 If rental1 is not rental2 and the renter of rental1 is the renter of rental2 then"
+"it", "is", "obligatory that the rental period of rental1 does not overlap the rental period of rental2"
+"the rental period of rental1", "does not overlap", "the rental period of rental2"
+
+It is obligatory that each driver of a rental is qualified.
+"It", "is", "obligatory that each driver of a rental is qualified"
+"each driver of a rental", "is qualified"
+
+Each car movement specifies exactly one car group.
+"Each car movement", "specifies", "exactly one car group"
+
+Each car transfer includes exactly one car movement.
+"Each car transfer", "includes", "exactly one car movement"
+
+Each driver of the rental has a valid driver license.
+"Each driver of the rental", "has", "a valid driver license"
+
+Each branch's name must be unique.
+"branch", "has", "name"
+"branch 's name", "must be", "unique"

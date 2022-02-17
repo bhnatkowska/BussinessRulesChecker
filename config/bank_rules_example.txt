@@ -1,0 +1,6 @@
+Each ATM's location must be close to the bank's location the ATM is managed by.
+"Each ATM", "has", "location"
+"Each ATM 's location", "must be", "close to the bank 's location"
+"Each ATM 's location", "must be", "close"
+"the bank", "has", "location"
+"the ATM", "is managed", "by the bank 's location"
